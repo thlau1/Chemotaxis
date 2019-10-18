@@ -20,6 +20,7 @@ Bacteria [] colony;
 void mousePressed()
 {
   clear();
+  background(255);
 }
  class Bacteria    
  {     
@@ -34,19 +35,19 @@ void mousePressed()
    {
    	 if(mouseX> myX)
     {
-    	myX += (int)(Math.random()*5);
+    	myX += (int)(Math.random()*10);
     }
     else
     {
-    	myX += (int)(Math.random()*5)-3;
+    	myX += (int)(Math.random()*10)-8;
     }
     if(mouseY > myY)
     {
-    	myY += (int)(Math.random()*5);
+    	myY += (int)(Math.random()*10);
     }
     else
     {
-    	myY += (int)(Math.random()*5)-3;
+    	myY += (int)(Math.random()*10)-8;
     }	
    }
    void show()

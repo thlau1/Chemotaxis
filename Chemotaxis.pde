@@ -19,7 +19,6 @@ Bacteria [] colony;
  }  
 void mousePressed()
 {
-  clear();
   background(255);
 }
  class Bacteria    

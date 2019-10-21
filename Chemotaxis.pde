@@ -35,19 +35,19 @@ void mousePressed()
    {
    	 if(mouseX> myX)
     {
-    	myX += (int)(Math.random()*10);
+    	myX += (int)(Math.random()*20);
     }
     else
     {
-    	myX += (int)(Math.random()*10)-8;
+    	myX += (int)(Math.random()*20)-18;
     }
     if(mouseY > myY)
     {
-    	myY += (int)(Math.random()*10);
+    	myY += (int)(Math.random()*20);
     }
     else
     {
-    	myY += (int)(Math.random()*10)-8;
+    	myY += (int)(Math.random()*20)-18;
     }	
    }
    void show()
